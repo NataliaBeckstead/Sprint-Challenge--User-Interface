@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+
 p {
     line-height: 1.4;
 }
@@ -144,3 +145,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*my code*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+	color: lightgray;
+}
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+ 
