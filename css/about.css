@@ -90,7 +90,21 @@ nav a {
 header{
     margin-top: 1em;
     margin-bottom: 1em;
+    animation-name: headerAnimation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
 }
+@keyframes headerAnimation {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+  }
+
 /*first section*/
 .top-content {
     display: flex;

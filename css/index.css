@@ -191,4 +191,18 @@ nav a {
 #box10 {
     background-color: dodgerblue;
 }
- 
+header{
+    animation-name: headerAnimation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+@keyframes headerAnimation {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+  }
