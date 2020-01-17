@@ -206,3 +206,15 @@ header{
         opacity:0;
     }
   }
+  @media(max-width: 500px) {
+    .container { 
+        width: 400px;
+    }
+    header img {
+        width: 400px;
+    }  
+    section {
+          display: flex;
+          flex-direction: column;
+      }
+  }
